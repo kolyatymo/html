@@ -1,0 +1,76 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap'); */
+
+@font-face {
+    font-family: 'Library';
+    src: url(/fonts/Library.otf);
+}
+
+@font-face {
+    font-family: 'Perfograma';
+    src: url(/fonts/Perfograma.otf);
+}
+
+@font-face {
+    font-family: 'Library_soft';
+    src: url(/fonts/Library_soft.otf);
+}
+
+@font-face {
+    font-family: 'font';
+    src: url(/fonts/font.otf);
+}
+
+body {
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(162, 109, 10);
+    text-transform: uppercase;
+    /* font-family: "Stack Sans Notch", sans-serif; */
+    font-family: 'Library';
+}
+
+.p_first {
+    /* font-family: "Great Vibes", cursive; */
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'font';
+}
+
+.p2 {
+    text-align: left;
+    line-height: 1;
+    /* font-family: "Bitcount Prop Single", system-ui; */
+    text-decoration: underline;
+    margin-left: 50px;
+    font-family: 'Perfograma';
+}
+
+.p3 {
+    text-align: right;
+}
+
+.p4 {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+    /* font-family: "Love Ya Like A Sister", cursive; */
+    font-family: 'Library_soft';
+}
+
+.p_last {
+    border: solid 2px;
+    color: brown;
+    width: 180px;
+    padding: 10px;
+}
