@@ -1,0 +1,75 @@
+.figure-1{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border-radius: 50%;
+    /* box-shadow: 5px 5px 10px black; */
+    /* transition:border-radius 5s ease-in-out 3s, transform 3s;
+    transform: translate(0); */
+}
+.figure-1:hover{
+    background-color: blue;
+    border-radius: 0%;
+    transform: translate(400px);
+}
+
+.img img:nth-child(1):hover{
+    transform: translateX(50px);
+}
+.img img:nth-child(2):hover{
+    transform: scale(2);
+}
+.img img:nth-child(3):hover{
+    transform: rotate(45deg);
+}
+.img img:nth-child(4):hover{
+    filter:blur(30px);
+}
+.img img:nth-child(5):hover{
+    filter: contrast(0.5);
+}
+.img img:nth-child(6):hover{
+    filter: contrast(0.5);
+}
+.img img:nth-child(7):hover{
+    filter: invert(0.5);
+}
+.img img:nth-child(8):hover{
+    filter:opacity(0.5);
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    border-radius: 50%;
+    transform-origin: top right;
+    transform: translate(0%);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: colors 5s ease infinite alternate; */
+    animation: colors 5s ease infinite ;
+}
+.circle:hover{
+    animation-play-state: paused;
+}
+
+@keyframes colors {
+    0%{
+        background-color: brown;
+        transform: translate(0px);
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: purple;
+    }
+    75%{
+        background-color: green;
+    }
+    100%{
+        background-color: orange;
+        transform: translate(450px);
+    }
+}
+
+

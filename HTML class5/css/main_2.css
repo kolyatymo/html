@@ -1,0 +1,38 @@
+tr,td,table{
+    border:groove 7px;
+}
+table.table-1{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 40px;
+}
+
+td{
+    text-align: left;
+}
+
+.td-1{
+    text-align: center;
+    background-color: rgb(206, 205, 205);
+    font-weight: bold;
+}
+
+.td-2{
+    text-align: center;
+    color: red;
+}
+
+.td-3{
+    background-color: rgb(116, 195, 195);
+    text-align: center;
+}
+
+.td-4{
+    background-color: rgb(146, 112, 112);
+    text-align: center;
+}

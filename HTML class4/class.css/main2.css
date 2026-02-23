@@ -1,0 +1,22 @@
+h2 {
+    color: blue;
+    clear: both;
+}
+
+.img-right {
+    float: right;
+    width: 200px;
+    border: solid;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+p {
+    padding-left: 100px;
+    /* margin-right: 220px; */
+    text-align: justify;
+}
+
+span {
+    color: blue;
+}

@@ -1,0 +1,78 @@
+th,
+td,
+table{
+    border: solid 1px;
+}
+table.table-1{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    /* border-spacing: 15px 5px; */
+    /* border-spacing: 0px; */
+    border-collapse: collapse;
+    /* display: none; */
+}
+
+.col-2{
+    background-color: aqua;
+    /* color: aliceblue;
+    border:double 5px black; */
+}
+
+.col-10{
+    text-align: center;
+    vertical-align: top;
+}
+
+.table-2{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    display: none;
+}
+
+.table-3{
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    /* display: none; */
+}
+
+/* .table-3 tr:nth-child(3)
+{
+    background-color: aqua;
+} */
+
+/* .table-3 tr:nth-child(odd)
+{
+    background-color: aqua;
+}
+
+.table-3 tr:nth-child(even)
+{
+    background-color: rgb(51, 200, 43);
+} */
+
+/* .table-3 tr:nth-child(3n)
+{
+    background-color: aqua;
+} */
+
+/* .table-3 tr:nth-child(5n + 3)
+{
+    background-color: aqua;
+} */
+
+/* .table-3 tr td:nth-child(odd){
+    background-color: rgb(155, 62, 180);
+} */
+
+/* .table-3 tr td:last-child{
+    background-color: aquamarine;
+}
+
+.table-3 tr td:first-child{
+    background-color: rgb(200, 27, 82);
+} */

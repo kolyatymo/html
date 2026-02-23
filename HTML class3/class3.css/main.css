@@ -1,0 +1,42 @@
+.list-1{
+    list-style-type: decimal-leading-zero;
+}
+
+.list-2{
+    list-style-type: disclosure-open;
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-3{
+    list-style-image: url(../img/grunge-yes-no-icon-1.png);
+    background-color: aqua;
+    width: 100px;
+}
+
+.list-3 li{
+    border: solid;
+    margin-bottom: 5px;
+}
+
+.list-4{
+    list-style-position: inside;
+}
+
+dl{
+    border: double;
+    /* padding: 10px; */
+}
+
+dt{
+    background-color: blue;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+dd{
+    background-color: rgb(25, 18, 103);
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
+}

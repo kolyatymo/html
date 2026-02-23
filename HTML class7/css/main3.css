@@ -1,0 +1,10 @@
+img{
+    filter:grayscale();
+    transform: scale(0.5);
+    transition: 3s;
+}
+img:hover{
+    transition: 3s;
+    transform: scale(1.5);
+    filter: contrast(1);
+}

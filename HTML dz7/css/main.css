@@ -1,0 +1,48 @@
+div {
+    margin: 0 auto;
+}
+
+.clock {
+    width: 300px;
+    height: 300px;
+    border: solid rgb(62, 218, 186) 4px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.dot {
+    background-color:  rgb(62, 218, 186);
+    width: 14px;
+    height: 14px;
+    margin-top: 143px;
+    border-radius: 50%;
+}
+
+.min-line {
+    background-color: rgb(62, 218, 186);
+    width: 140px;
+    height: 4px;
+    margin-left: 146px;
+    margin-top: -12px;
+    animation: animations 60s linear infinite;
+    transform-origin: left center;
+}
+.h-line {
+    background-color: rgb(62, 218, 186);
+    width: 80px;
+    height: 4px;
+    margin-left: 150px;
+    margin-top: -4px;
+    animation: animations 160s linear infinite;
+    transform-origin: left center;
+}
+
+@keyframes animations {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

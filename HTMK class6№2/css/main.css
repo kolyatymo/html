@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    width: 100px;
+    background-color: aqua;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.menu-1 a{
+    /* background-image: -webkit-linear-gradient(); */
+    background: linear-gradient(180deg,rgba(133, 243, 235, 1) 0%, rgba(54, 178, 169, 1) 54%);
+}
+.menu-2 a{
+    background: linear-gradient(180deg,rgba(104, 239, 234, 1) 0%, rgba(37, 152, 155, 1) 54%);
+}
+.menu-3 a{
+    background: linear-gradient(180deg,rgba(42, 155, 102, 1) 7%, rgba(44, 199, 119, 1) 71%);
+}
+.menu-4 a{
+    background: linear-gradient(180deg,rgba(42, 155, 83, 1) 7%, rgba(44, 199, 78, 1) 71%);
+}
+.menu-5 a{
+    background: linear-gradient(180deg,rgba(151, 155, 42, 1) 7%, rgba(178, 199, 44, 1) 71%);
+}
+.menu-6 a{
+    background: linear-gradient(180deg,rgba(173, 130, 43, 1) 7%, rgba(199, 132, 44, 1) 71%);
+}
+.menu-7 a{
+    background: linear-gradient(180deg,rgba(173, 43, 88, 1) 7%, rgba(199, 44, 155, 1) 71%);
+}
+.menu-8 a{
+    background: linear-gradient(180deg,rgba(156, 52, 191, 1) 7%, rgba(179, 55, 204, 1) 71%);
+}

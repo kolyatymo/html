@@ -1,0 +1,43 @@
+
+
+p{
+    text-align: center;
+    word-spacing: 20px;
+}
+
+/* a{
+    color: orange;
+} */
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+a:link{
+    background-color: rgb(6, 8, 8);
+    color: orange;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+a:visited{
+    background-color: aliceblue;
+    color: rgb(33, 61, 223);
+    border-radius: 10px;
+}
+
+a:hover{
+    color: aqua;
+    background-color: brown;
+    box-shadow:inset 0px 0px 10px black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a:active{
+    background-color: red;
+    color: brown;
+}

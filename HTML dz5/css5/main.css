@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td,
+th {
+    border: solid 1px;
+    padding: 8px;
+}
+
+table {
+    width: 60%;
+    border: solid 1px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+tr {
+    width: 200px;
+    height: 25px;
+}
+
+td {}
+
+.col-1 {
+    background-color: hsl(49.15deg 95.92% 80.78%);
+    width: 4%;
+}
+
+.col-2 {
+    background-color: hsl(49.15deg 95.92% 80.78%);
+    width: 2%;
+}
+
+.col-3 {
+    background-color: hsl(240deg 92.31% 89.8%);
+    width: 15%;
+}
+
+.col-4 {
+    background-color: hsl(356.36deg 86.84% 85.1%);
+    width: 15%;
+}
+
+.col-5 {
+    background-color: hsl(141.32deg 100% 85.1%);
+    width: 15%;
+}
+
+.col-6 {
+    background-color: hsl(298.24deg 94.44% 85.88%);
+    width: 15%;
+}
+
+tr th:nth-child(1) {
+    height: 50px;
+}
+
+tr:nth-child(2) {
+    height: 50px;
+    font-weight: bold;
+}
+
+table tr:nth-child(4n + 3) {
+    height: 45px;
+    font-size: 12px;
+    text-align: left;
+}
+
+tr:nth-child(4) {
+    height: 50px;
+}
+
+tr:nth-child(6) {
+    height: 50px;
+}
+
+tr:nth-child(10) {
+    height: 50px;
+}
+
+tr:nth-child(12) {
+    height: 50px;
+}
+
+tr:nth-child(14) {
+    height: 50px;
+}

@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    width: 524px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    top: 30%;
+    right: 48%;
+    z-index: -52;
+}
+
+
+.block {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(135 45 98);
+    border: solid rgb(101 17 66) 6px;
+    transition: 2s;
+}
+
+
+.block.left {
+    float: right;
+}
+
+.main:hover .block.left {
+    transform: perspective(300px) rotatey(-40deg);
+}
+
+.main:hover .block.right {
+    transform: perspective(300px) rotatey(40deg);
+}

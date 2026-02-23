@@ -1,0 +1,40 @@
+body {
+    padding: 30px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 15px;
+    list-style-image: url(../img3/checked_16.png);
+}
+
+
+li:nth-child(odd) {
+    background-color: rgb(145, 172, 219);
+}
+
+li:nth-child(even) {
+    background-color: rgb(145, 202, 230);
+}
+
+li.completed {
+    background-color: rgb(225, 223, 220);
+    padding: 15px;
+}
+
+ol {
+    padding: 0;
+}
+ 
+span {
+    text-decoration: line-through;
+}
+
+.list1 {
+    background-color: blueviolet;
+}

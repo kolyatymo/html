@@ -1,0 +1,66 @@
+body{
+    color: white;
+    background-image: url(../img/horoscope_bkgr.jpg);
+    background-attachment: fixed;
+}
+
+.img-left{
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    border: solid;
+    border-width: 4px;
+}
+
+.img-right{
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    border: solid;
+    border-width: 4px;
+}
+
+.hr-1{
+    width: 100%;
+}
+
+hr{
+    width: 250px;
+    clear: both;
+}
+
+
+h1{
+    clear: both;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    clear: both;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.p-left{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 350px
+}
+
+.p-right{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 350px;
+}
+
+.p-right2{
+    text-align: right;
+}

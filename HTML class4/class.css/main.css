@@ -1,0 +1,52 @@
+/* img {
+    width: 300px;
+}
+body{
+    background-color: blue;
+} */
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .img-left{
+     /* display: block; */
+     width: 200px;
+     float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.img-right{
+    width: 200px;
+    float: right;
+
+}
+
+p{
+    /* background-color: aquamarine; */
+    /* margin-left: 210px; */
+    
+}
+
+.text-2{
+    clear:left;
+}
+
+body{
+    /* height: 2000px; */
+    /* height: 100vh; */
+    background-image: url(../img/1.jpg);
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx4KwOPYDRxFoVdTEcis5Df00Y35BaL5mOpw&s); */
+    background-repeat: no-repeat;
+    /* background-position-x: center;
+    background-position-y: 100px; */
+    /* background-position: center bottom; */
+    /* background-size: cover; */
+    /* background-size: contain; -- у весь простір */
+    background-size: 100%;
+    background-attachment: fixed;  /* scroll */
+
+}
+img:hover{
+    color: brown;
+}

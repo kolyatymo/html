@@ -1,0 +1,19 @@
+.list-1{
+    list-style-image: url(../img/winter_16.png);
+}
+
+.list-2{
+    list-style-image: url(../img/spring_16.png);
+}
+
+.list-3{
+    list-style-image: url(../img/summer_16.png);
+}
+
+.list-4{
+    list-style-image: url(../img/autumn_16.png);
+}
+
+.list-5{
+    list-style-type: ">";
+}
